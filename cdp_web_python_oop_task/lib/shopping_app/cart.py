@@ -30,4 +30,4 @@ class Cart:
         for item in self.items:
             item.set_owner(self.owner)
         #Vaciar el contenido del carro.
-        self.items.clear
+        self.items = []
